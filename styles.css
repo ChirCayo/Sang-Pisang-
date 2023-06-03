@@ -1,7 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #e0b92b28;
   padding: 20px 10px;
 }
 
@@ -17,10 +17,9 @@
   border-radius: 4px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+/* Style the logo */
 .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+  size: 25px;
 }
 
 
@@ -32,7 +31,7 @@
 
 /*Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: rgb(255, 169, 30);
   color: white;
 }
 
