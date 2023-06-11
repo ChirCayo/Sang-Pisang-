@@ -16,6 +16,7 @@ function showSlide(slideIndex) {
   // Show the selected slide and activate the corresponding indicator
   slides[slideIndex].style.display = "block";
   indicators[slideIndex].classList.add("active");
+  currentSlide = slideIndex; // Update the currentSlide variable
 }
 
 function nextSlide() {
@@ -36,8 +37,7 @@ function previousSlide() {
 
 function goToSlide(index) {
   if (index >= 0 && index < slides.length) {
-    currentSlide = index;
-    showSlide(currentSlide);
+    showSlide(index);
   }
 }
 
