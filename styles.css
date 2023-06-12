@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*NAVBAR*/
 :root {
-  --primary-font: "Abril Fatface", sans-serif;
-  --second-font: "Tienne", serif;
+  --primary-font: 'Abril Fatface', sans-serif;
+  --second-font: 'Tienne', serif;
 
   --bg-primary: #ffeb02;
 }
@@ -123,7 +134,7 @@ a {
 }
 
 .content h3 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -139,7 +150,7 @@ a {
 }
 
 .content h3 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -150,7 +161,7 @@ a {
 }
 
 .content p {
-  font-family: "Tienne";
+  font-family: 'Tienne';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -195,7 +206,7 @@ a {
 }
 
 .popular-text h3 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -204,7 +215,7 @@ a {
 }
 
 .popular-text p {
-  font-family: "Tienne";
+  font-family: 'Tienne';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -213,7 +224,6 @@ a {
 }
 
 /*CAROUSEL*/
-/*Carousel section*/
 .carousel {
   width: 100vw;
   height: 100vh;
@@ -279,54 +289,4 @@ a {
 
 .carousel-button.next {
   right: 1rem;
-}
-
-/*Popular Menu Section*/
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after,
-.row::after {
-  content: '';
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: grey;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }
