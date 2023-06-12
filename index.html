@@ -26,6 +26,7 @@
     />
   </head>
   <body>
+<!--NAVBAR-->
     <header>
       <div class="container">
         <div class="nav-wrapper">
@@ -64,31 +65,22 @@
       </div>
     </header>
 
-    <div class="carousel">
-      <div class="carousel-slide">
-        <img
-          src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C1.png"
-          alt="Image 1"
-        />
-      </div>
-      <div class="carousel-slide">
-        <img
-          src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C2.png"
-          alt="Image 2"
-        />
-      </div>
-      <div class="carousel-slide">
-        <img
-          src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C3.png"
-          alt="Image 3"
-        />
-      </div>
-      <a class="carousel-prev" href="#"><i class="fas fa-chevron-left"></i></a>
-      <a class="carousel-next" href="#"><i class="fas fa-chevron-right"></i></a>
-      <div class="carousel-indicators">
-        <span class="carousel-indicator active"></span>
-        <span class="carousel-indicator"></span>
-        <span class="carousel-indicator"></span>
+<!--CAROUSEL-->
+    <section aria-label="What's new!">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+        <ul data-slides class="caraousel-image">
+          <li class="slide" data-active>
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C1.png" alt="Image1">            
+          </li>
+          <li class="slide">
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C2.png" alt="Image2">            
+          </li>
+          <li class="slide">           
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C3.png" alt="Image3">
+          </li>
+        </ul>
       </div>
     </div>
   </body>
