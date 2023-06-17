@@ -1,7 +1,7 @@
 html,
 body {
   font-family: Garamond;
-  background: #FFF260;
+  background: #fff260;
   margin: 0;
   padding: 0;
 }
@@ -17,20 +17,20 @@ body {
   width: 100%;
   overflow: hidden;
 }
-  
+
 .carousel-slide {
   display: none;
 }
-  
+
 .carousel-slide:first-child {
   display: block;
 }
-  
+
 .carousel-slide img {
   width: 100%;
   height: auto;
 }
-  
+
 .carousel-prev,
 .carousel-next {
   position: absolute;
@@ -42,26 +42,26 @@ body {
   opacity: 0.5;
   transition: opacity 0.3s;
 }
-  
+
 .carousel-prev:hover,
 .carousel-next:hover {
   opacity: 1;
 }
-  
+
 .carousel-prev {
   left: 10px;
 }
-  
+
 .carousel-next {
   right: 10px;
 }
-  
+
 .carousel-indicators {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-  
+
 .carousel-indicator {
   width: 10px;
   height: 10px;
@@ -70,7 +70,7 @@ body {
   margin: 0 5px;
   cursor: pointer;
 }
-  
+
 .carousel-indicator.active {
   background-color: #000;
 }
@@ -79,46 +79,59 @@ body {
 div.gallery {
   border: 1px solid #ccc;
 }
-  
+
 div.gallery:hover {
   border: 1px solid #777;
 }
-  
+
 div.gallery img {
   width: 100%;
   height: auto;
 }
-  
+
 div.desc {
   padding: 15px;
   text-align: center;
 }
- 
+
 * {
   box-sizing: border-box;
 }
-  
+
 .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
-  
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
-  
+
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
 }
-  
+
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
