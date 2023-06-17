@@ -1,137 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>SangPisang</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-  </head>
-
-  <body>
-    <!--NAVBAR-->
-        <header>
-          <div class="container">
-            <div class="nav-wrapper">
-              <div class="logo">
-                <img
-                  src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/logo.png"
-                  alt="Logo"
-                  width="100"
-                />
-              </div>
-              <div class="navigation">
-                <nav class="menu">
-                  <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">Shop</a>
-                    </li>
-                    <li>
-                      <a href="#">Ingredients</a>
-                    </li>
-                    <li>
-                      <a href="#">About Us</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="button-navigation">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </a>
-                <a href="#">Hi, William!</a>
-              </div>
+<html>
+    <head>
+        <title>SangPisang</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    
+    <body>
+    <!--CAROUSEL-->
+        <div class="carousel">
+            <div class="carousel-slide">
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C3.png" alt="Image 1">
             </div>
-          </div>
-        </header>
+            <div class="carousel-slide">
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C2.png" alt="Image 2">
+            </div>
+            <div class="carousel-slide">
+            <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C1.png" alt="Image 3">
+            </div>
+            <a class="carousel-prev" href="#"><i class="fas fa-chevron-left"></i></a>
+            <a class="carousel-next" href="#"><i class="fas fa-chevron-right"></i></a>
+            <div class="carousel-indicators">
+            <span class="carousel-indicator active"></span>
+            <span class="carousel-indicator"></span>
+            <span class="carousel-indicator"></span>
+        </div>
 
-    <div class="content">
-      <!--CAROUSEL-->
-        <div>
-          <div class="carousel" data-carousel>
-            <button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
-            <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
-            <ul data-slides class="caraousel-image">
-              <li class="slide" data-active>
-                <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C3.png" alt="Image1">            
-              </li>
-              <li class="slide">
-                <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C2.png" alt="Image2">            
-              </li>
-              <li class="slide">           
-                <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/C1.png" alt="Image3">
-              </li>
-            </ul>
-          </div>
-         </div>
+        <br>
+        <br>
 
-      <!--PROMO BUTTON-->
-        <div class="promo">
-          <a href="#">See all promo!</a>
+    <!--POPULAR MENU-->
+        <center>
+            <div class='popular'>
+            <h2>Our Popular Menu
+        </center>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu1.jpg">
+                    <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu1.jpg" alt="Menu1">
+                </a>
+                <div class="desc">Banan Roll Coklat</div>
+            </div>
+        </div>      
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu2.jpg">
+                    <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu2.jpg" alt="Menu2">
+                </a>
+                <div class="desc">Naget Pisang Tiramisu</div>
+            </div>
+        </div>     
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu3.jpg">
+                    <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu3.jpg" alt="Menu3">
+                </a>
+                <div class="desc">Banana Strips</div>
+            </div>
         </div>
-      
-      <!--POPULAR MENU-->
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre">
-          </a>
-          <div class="desc">Add a description of the image here</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu4.jpg">
+                    <img src="https://stackblitz.com/files/web-platform-ckmser/github/ChirCayo/Sang-Pisang-/main/Image/Menu4.jpg" alt="Menu4">
+                </a>
+                <div class="desc">Naget Pisang Coklat</div>
+            </div>
         </div>
-      </div>
-      
-      <P>Our Popular Menu</P>
-      <br>
-      <br>
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-      </div>     
-      <div class="clearfix"></div>
-    </div>
-  </body>
+        <div class="clearfix"></div>
+    </body>
 </html>
