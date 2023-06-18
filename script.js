@@ -41,9 +41,6 @@ function goToSlide(index) {
   }
 }
 
-// Automatic slide change every 3 seconds
-setInterval(nextSlide, 3000);
-
 // Event listeners for prev/next buttons
 document.querySelector(".carousel-prev").addEventListener("click", previousSlide);
 document.querySelector(".carousel-next").addEventListener("click", nextSlide);
