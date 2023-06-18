@@ -142,3 +142,8 @@ div.desc {
   padding-left: 65px;
   padding-right: 65px;
 }
+
+.button {
+  padding: 10px 24px;
+  border-radius: 7px;
+}
