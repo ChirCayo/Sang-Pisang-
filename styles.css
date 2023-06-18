@@ -29,12 +29,14 @@ body {
 .carousel-slide img {
   width: 100%;
   height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .carousel-prev,
 .carousel-next {
   position: absolute;
-  top: 50%;
+  top: 15%;
   transform: translateY(-50%);
   color: #000;
   font-size: 24px;
@@ -124,7 +126,7 @@ div.desc {
 }
 
 .container {
-  position: relative;
+  padding-top: 67rem;
 }
 
 .center {
