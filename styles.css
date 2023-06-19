@@ -125,23 +125,36 @@ div.desc {
   clear: both;
 }
 
-.container {
-  padding-top: 67rem;
+/*ALL MENU BUTTON*/
+.btn-container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display:flex
 }
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 10px 24px;
-  border-radius: 7px;
-  font-size: 24px
+.btn {
+  font-family: Garamond;
+  font-size: 10px;
+  font-weight: bold;
+  background: #FF9927;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; 
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
 }
 
-.menu {
-  padding-left: 65px;
-  padding-right: 65px;
+.btn:hover, btn:focus, .btn:active {
+  box-shadow: 0 0 20px rgba(0, 0 ,0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
