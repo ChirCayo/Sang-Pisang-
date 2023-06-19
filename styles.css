@@ -78,6 +78,11 @@ body {
 }
 
 /*POPULAR MENU*/
+.menu {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
