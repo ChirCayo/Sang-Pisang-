@@ -36,7 +36,7 @@ body {
 .carousel-prev,
 .carousel-next {
   position: absolute;
-  top: 7%;
+  top: calc(50% - 40px);
   transform: translateY(-50%);
   color: #000;
   font-size: 24px;
@@ -84,7 +84,7 @@ body {
 }
 
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid rgb(130, 80, 0);
 }
 
 div.gallery:hover {
